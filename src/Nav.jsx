@@ -14,6 +14,11 @@ const Nav = () => {
         <img src="https://frontendsimplified.com/_nuxt/img/Frontend%20Simplified%20Logo.853fbda.png" alt="" class="logo__img"></img>
         </figure>
       </div>
+      <div className="nav__links">
+        <span className='user__name--span'>
+        <span class="el-popover__reference-wrapper"><button class="nav__icon el-popover__reference" aria-describedby="el-popover-8927" tabindex="0"><span>V</span></button></span>
+        </span>
+      </div>
     </div>
   </nav>
   );
