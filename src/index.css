@@ -43,13 +43,18 @@ span {
   background-color: transparent;
 }
 
-.dashboard__nav--content {
-  padding: 0 6px;
+.dashboard__nav {
+  height: 60px;
+  min-height: 60px;
+  color: #7645d9;
+  background-color: #faf9fa;
+  border-bottom: 2px solid hsla(0,0%,52.2%,.1);
 }
 
 .dashboard__nav--content {
   display: flex;
   justify-content: space-between;
+  padding: 0 6px;
 }
 
 .nav__links {
